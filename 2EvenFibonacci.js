@@ -1,7 +1,5 @@
-// 4 million
-// for (let i = 0; i < 4000000; i++) {
-//     console.log(i);
-// }
+// 4 million 4000000
+
 
 let fib1 = 1;
 let fib2 = 1;
