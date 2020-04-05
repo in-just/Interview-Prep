@@ -13,3 +13,6 @@ function fibo(n) {
 }
 
 console.log(fibo(77));
+console.log(fibo(1));
+console.log(fibo(2));
+console.log(fibo(3));
