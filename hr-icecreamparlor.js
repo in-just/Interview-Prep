@@ -1,7 +1,3 @@
-let money = 4;
-let cost1 = [1,4,5,3,2];
-let cost2 = [2,2,4,3];
-
 // Brute force solution
 function whatFlavors(cost, money) {
     // money.sort(function (a,b) {
@@ -21,7 +17,6 @@ function whatFlavors(cost, money) {
 // whatFlavors(cost, money1);
 
 function whatFlavorsHash(cost, money) {
-    // loop through hashmap and if cJ exists, return. if not ++i and check through again for its complement
     const map = new Map();
     for (let i = 0; i < cost.length; i++) {
         var target = money - cost[i];
@@ -33,5 +28,8 @@ function whatFlavorsHash(cost, money) {
     }
 }
 
-whatFlavorsHash(cost1, money);
+let money = 5;
+let cost1 = [1,4,5,3,2];
+let cost2 = [2,2,4,3];
 
+whatFlavorsHash(cost1, money);
