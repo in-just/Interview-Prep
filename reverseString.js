@@ -11,4 +11,14 @@ function reverseString(s) {
 
 let s = "1234";
 let s1 = Number(1234);
-console.log(reverseString(s));
+// console.log(reverseString(s));
+
+function anotherReverse(s) {
+    let rs = "";
+    for (let i = 0; i < s.length; ++i) {
+        rs += s[s.length - 1 - i];
+    }
+    return rs;
+}
+
+console.log(anotherReverse(s));
