@@ -22,3 +22,13 @@ function anotherReverse(s) {
 }
 
 console.log(anotherReverse(s));
+
+function reverseString1(s) {
+    let rs ="";
+    for (let i = 0; i < s.length; ++i) {
+        rs += s[s.length - 1 - i];
+    }
+    return rs;
+}
+
+console.log(reverseString1(s));
