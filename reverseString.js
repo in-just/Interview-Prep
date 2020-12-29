@@ -31,4 +31,4 @@ function reverseString1(s) {
     return rs;
 }
 
-console.log(reverseString1(s));
+console.log("reverseString1 " + reverseString1(s));
