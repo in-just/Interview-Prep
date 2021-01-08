@@ -17,7 +17,8 @@ class LinkedList {
     constructor() {
         this[head] = null;
     }
-    // adding new data to the list
+    
+    // adding data
     add(data) {
         
         // create a new node
@@ -41,6 +42,7 @@ class LinkedList {
         }
     }
 
+    // retrieving data
     get(index) {
 
         // ensure `index` is a positive value
@@ -64,4 +66,7 @@ class LinkedList {
             return undefined;
         }
     }
+
+    // removing data
+    
 }
